@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador QrCode</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://www.msitec.com.br/c/1/logo_min.png" alt="logo">
+    <h1>Gerador de QrCode MSI</h1>
+    <form id="qrForm">
+      <label for="urlInput">URL:</label>
+      <input type="text" id="urlInput" required>
+      <button type="submit">Gerar QrCode</button>
+    </form>
+    <div id="qrcode"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
